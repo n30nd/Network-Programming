@@ -9,6 +9,7 @@
 #include "sys/socket.h"
 #include "netdb.h"
 #include "netinet/in.h"
+#include "string.h"
 int main(int argc, char* argv[]) {
     if(argc != 3) {
         printf("Usage: %s hostname port \n", argv[0]);
