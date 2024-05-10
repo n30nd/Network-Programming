@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "gdb",
+            "request": "launch",
+            "name": "Launch Program (SSH - HOME)",
+            "target": "myscan",
+            "cwd": "${workspaceRoot}",
+            
+            "ssh": {
+                "host": "172.22.106.42",
+                "cwd": "${workspaceRoot}",
+                "user": "namvq",
+                "password": "namvq",
+                "port": 22,
+                "useAgent": false,
+                "forwardX11": false,
+            }
+        }
+    ]
+}
+
