@@ -1,5 +1,5 @@
 // ex5
-// connect to a server via nameserver
+// connect to a server via domain name
 // printf address of server 
 
 #include "stdio.h"
@@ -35,7 +35,7 @@ int main()
             break;
         }
         tmp = tmp->ai_next;
-    }
+    }        
 
     int s = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
     int error = connect(s, (struct sockaddr *)&tmpaddr, sizeof(struct sockaddr_in));
