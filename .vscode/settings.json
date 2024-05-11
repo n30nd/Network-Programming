@@ -4,6 +4,11 @@
         "dirent.h": "c",
         "cstdlib": "c",
         "stdlib.h": "c",
-        "inet.h": "c"
+        "inet.h": "c",
+        "internet": "c",
+        "socket": "c",
+        "functional": "c",
+        "socket.h": "c",
+        "string.h": "c"
     }
 }
