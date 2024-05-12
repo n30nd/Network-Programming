@@ -1,3 +1,5 @@
+//ex9
+//UDP CHAT ROOM SERVER
 // Viết một UDP server:
 // Nhận message từ một client bất kỳ
 // Lưu các địa chỉ IP của client lại vào một danh sách
